@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Math.js"></script>
+</head>
+<body>
+    <h1 style="color: blue;">Welcome to javascript practice session</h1>
+    <p id="demo"> I am Muhammad</p>
+    <script>
+        // var names = 90;
+        // console.log(names);
+
+        // var student = ["Ali", "Zainab", "faiqa"];
+        // console.log(student);
+        // student.pop();
+        // console.log(student); 
+            
+        // var mystring = ("Hello world")
+        // console.log(mystring);
+
+
+        // const mystring8 = mystring.substring(2);
+        // console.log(mystring);
+
+        // const Mysting = "Hello World";
+        // console.log(Mysting)
+
+        // const Mysting2 = new (String);
+        // console.log(Mysting + Mysting2)
+
+        // const Mysting3 = `${Mysting} ${Mysting2}`;
+        // console.log(Mysting3)
+
+        // const Mysting4 = Mysting.substring(-1);
+        // console.log(Mysting4)
+ 
+        // const Myname ="Hello";
+        // const size = Mysting.length;
+        // const Myname2= Mysting.toUpperCase("Hello")
+
+
+        const Mystring = "Hello World";
+        console.log(Mystring)
+
+        const Mystring1 = "Hello"
+        const size = Mystring1.length;
+        const Mystring2 = Mystring.toLowerCase().indexOf("Amir");
+        console.log(Mystring2)
+
+       if(Mystring2 > -1){
+          const Mystring3  = Mystring2 + size;
+          console.log(Mystring3);
+       }
+       else{
+         console.log(`condition not working`)
+       }
+
+       let x="5";
+       let z= 4;
+       if(typeof ( x == 5 & typeof z === 4 & x>z))
+       {
+        console.log("x is greater than z")
+       }
+        else if(typeof (x == 5 & typeof z === 4 & x>z))
+        {
+        
+        console.log("Else if")
+        }
+        if(typeof (x!= "num"))
+         {
+           console.log ( x= parseInt (x))
+         }
+         if (typeof(z!="num")){
+            console.log(z = parseInt(z))
+         }
+         else{
+            console.log("z is greater than x")
+         }
+     if ((x >= 0) && (x<=9)  && (z<=9))
+     {
+        console.log()
+     }
+     if (isNaN(x)){
+        console.log(x)
+     }
+     
+   //   let T = 16 + 6 + "taqi";      practice of add operator
+   function Jiva(f1 , f2){         // practice of a function 
+      return f1-f2
+   }
+     document.getElementById("demo").innerHTML = Jiva(60,20);
+
+         </script>
+        
+         
+    
+</body>
+</html>
